@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz опрос</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz">
+      <div id="title" class="quiz_title"></div>
+      <div class="quiz_progress-wrap">
+        <div class="quiz_progress">
+          <div id="progress-fill" class="quiz_progress-fill"></div>
+        </div>
+        <div  class="quiz_progress-questions">
+          <strong id="question-number"></strong>
+          <span>/</span>
+          <span id="total-questions"></span>
+        </div>
+      </div>
+      <div id="question-wrap" class="quiz_question">
+    <strong id="question-position"></strong>   
+<span id="question"><span>
+      </div>
+      <div id="answers" class="quiz_answers"></div>
+      <div id="next" class="quiz_btn">Следуюжий ответ</div>
+      <div id="result" class="quiz_result">
+        <div class="quiz_result_title">🎉</div>
+        <div class="quiz_result-info">
+          <span>Верных ответов</span><br>
+          <span id="valid-answers" class="quiz-result-num">2</span>
+          <span>из</span>
+          <span id="result-total-questions" class="quiz-result-num">3</span>
+        </div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
